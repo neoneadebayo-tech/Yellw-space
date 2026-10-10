@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Music | Yellw</title>
+<meta name="description" content="Music by Yellw, including the new project Warm Yellw's: DAGOGO's Memoir, out November 13.">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Oswald:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+
+  <section class="project" aria-labelledby="projTitle">
+    <h2 class="title" id="projTitle"></h2>
+    <p class="sub" id="projSub"></p>
+    <div class="sleeve" id="heroSleeve">
+      <div class="disc" aria-hidden="true"></div>
+      <img class="cover" id="projCover" alt="Cover art for Warm Yellw's: DAGOGO's Memoir">
+    </div>
+    <div class="countdown" id="countdown" role="timer" aria-live="off">
+      <div><b id="cd-d">--</b><small>days</small></div>
+      <div><b id="cd-h">--</b><small>hours</small></div>
+      <div><b id="cd-m">--</b><small>minutes</small></div>
+      <div><b id="cd-s">--</b><small>seconds</small></div>
+    </div>
+    <p class="release-date" id="releaseLine"></p>
+    <div class="cta-row"><a class="btn" id="presaveBtn" href="#" target="_blank" rel="noopener">Pre-save</a></div>
+  </section>
+
+  <section class="music" aria-labelledby="musicTitle">
+    <h2 class="title" id="musicTitle">music.</h2>
+    <p class="sub">Warm love notes from Yellw's heart to yours</p>
+    <div class="crate grid" id="crate"></div>
+  </section>
+
+  <section class="video" id="videoSection" hidden>
+    <div class="frame"><iframe id="ytFrame" title="I'll Hold On (Official Video)" allowfullscreen loading="lazy"></iframe></div>
+  </section>
+
+</main>
+<div id="site-footer"></div>
+<script src="site.js"></script>
+</body>
+</html>
